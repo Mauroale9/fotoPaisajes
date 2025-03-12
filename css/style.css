@@ -1,3 +1,14 @@
 a.nav-link:hover{
     color: rgb(146, 152, 152);
 }
+
+.cardpaisajes{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px){
+    .cardpaisajes{
+        justify-content: center;
+    }
+}
